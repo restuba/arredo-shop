@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Atomic Design Environtmen
+- assets (static file)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- components (there are five distinct levels in atomic design)
+
+- configs (calling api configuration)
+
+- modules (third party configuration)
+
+- routes (routing navigation)
+
+- services (save all )
+- utils
 
 ## Available Scripts
 

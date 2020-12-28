@@ -1,0 +1,1181 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Black light",
+      "slug": "black-light",
+      "price": 73,
+      "category": ["Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Black light II",
+      "slug": "black-light-ii",
+      "price": 23,
+      "category": ["Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product5-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product5-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product5-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product5-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product5-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Blue light",
+      "slug": "blue-light",
+      "price": 41,
+      "category": ["Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product2-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product2-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product2-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product2-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product2-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ceiling light",
+      "slug": "ceiling-light",
+      "price": 90,
+      "category": ["Ceiling","Decoration","LED"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product10-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product10-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product10-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product10-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product10-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cube light",
+      "slug": "cube-light",
+      "price": 70,
+      "category": ["Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sliver light",
+      "slug": "sliver-light",
+      "price": 70,
+      "category": ["Ceiling","Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Small black lamp",
+      "slug": "small-black-lamp",
+      "price": 90,
+      "category": ["Ceiling","Decoration","LED"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Stick light",
+      "slug": "stick-light",
+      "price": 30,
+      "category": ["Decoration","Floor"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Transparent light",
+      "slug": "transparent-light",
+      "price": 55,
+      "category": ["Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product4-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product4-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product4-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product4-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product4-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tube light",
+      "slug": "tube-light",
+      "price": 44,
+      "category": ["Decoration","LED"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "White ceiling lamp",
+      "slug": "white-ceiling-lamp",
+      "price": 115,
+      "category": ["Ceiling","Decoration"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "White light",
+      "slug": "white-light",
+      "price": 64,
+      "category": ["Decoration","Floor"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product1-img1-500x604.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product1-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product1-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product1-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product1-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bin",
+      "slug": "bin",
+      "price": 4,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img1-500x500.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product7-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Black clock",
+      "slug": "black-clock",
+      "price": 12,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product3-img1-500x500.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product3-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product3-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product3-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product3-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Blue sofa",
+      "slug": "blue-sofa",
+      "price": 500,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img1-500x500.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product1-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Chandelier",
+      "slug": "chandelier",
+      "price": 66,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product4-img1-500x500.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product4-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product4-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product4-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product4-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Elegant tube",
+      "slug": "elegant-tube",
+      "price": 43,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product2-img1-500x500.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product2-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product2-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product2-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product2-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Tea pot",
+      "slug": "tea-pot",
+      "price": 33,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product6-img1-500x244.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product6-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product6-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product6-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product6-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Wooden table",
+      "slug": "wooden-table",
+      "price": 86,
+      "category": ["Furniture"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product5-img1-500x244.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product5-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product5-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product5-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home8-product5-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Downloadable product",
+      "slug": "downloadable-product",
+      "price": 30,
+      "category": ["Grouped"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Brown"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "External product",
+      "slug": "external-product",
+      "price": 88,
+      "category": ["Grouped"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-2-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Grouped product",
+      "slug": "grouped-product",
+      "price": 75,
+      "category": ["Grouped"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Variable product",
+      "slug": "variable-product",
+      "price": 80,
+      "category": ["Grouped"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Black lightning",
+      "slug": "black-lightning",
+      "price": 145,
+      "category": ["Lamps"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-9-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Black metal lamp",
+      "slug": "black-metal-lamp",
+      "price": 150,
+      "category": ["Lamps","Wooden"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-3-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product3-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Blue & wood",
+      "slug": "blue-wood",
+      "price": 135,
+      "category": ["Lamps","Wooden"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-2-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Blue lamps",
+      "slug": "blue-lamps",
+      "price": 130,
+      "category": ["Lamps","Wooden"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-8-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product9-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Box",
+      "slug": "box",
+      "price": 90,
+      "category": ["Decorative","Lamps"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-7-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product8-img3-330x420.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Decorative wood",
+      "slug": "decorative-wood",
+      "price": 60,
+      "category": ["Lamps","Wooden"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-5-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product6-img2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Desk lamp",
+      "slug": "desk-lamp",
+      "price": 155,
+      "category": ["Decorative","Lamps"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-4-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product11-img3-330x420.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Grey lamp",
+      "slug": "grey-lamp",
+      "price": 75,
+      "category": ["Decorative","Lamps"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-6-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product7-img3-330x420.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "White lamp",
+      "slug": "white-lamp",
+      "price": 90,
+      "category": ["Lamps"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/filter-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/home9-product12-img5-330x420.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Bathroom lamp",
+      "slug": "bathroom-lamp",
+      "price": 80,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-4-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-3-330x420.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Bathroom lighting",
+      "slug": "bathroom-lighting",
+      "price": 95,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-4-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-3-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Black lamp",
+      "slug": "black-lamp",
+      "price": 150,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-5-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "LED bulb",
+      "slug": "led-bulb",
+      "price": 25,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-6-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "LED bulb II",
+      "slug": "led-bulb-ii",
+      "price": 25,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-6-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-6-gallery-1-330x420.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Modern lamp",
+      "slug": "modern-lamp",
+      "price": 170,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-5-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-5-gallery-1-330x420.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Pendant lamp",
+      "slug": "pendant-lamp",
+      "price": 120,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Pendant lighting",
+      "slug": "pendant-lighting",
+      "price": 110,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-1-gallery-2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Retro black",
+      "slug": "retro-black",
+      "price": 200,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-2-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-1-330x420.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Retro lamp",
+      "slug": "retro-lamp",
+      "price": 150,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-2-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-2-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Wall lamp",
+      "slug": "wall-lamp",
+      "price": 80,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-4-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Wall lighting",
+      "slug": "wall-lighting",
+      "price": 90,
+      "category": ["Lights"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-img-4-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-4-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/left-menu-product-4-gallery-2-330x420.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Floor lamp",
+      "slug": "floor-lamp",
+      "price": 70,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-7.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-21-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-22-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-23-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-24-330x420.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Flower vase",
+      "slug": "flower-vase",
+      "price": 85,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-1-500x487.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Knitted chair",
+      "slug": "knitted-chair",
+      "price": 120,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-8.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-17-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-18-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-19-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-20-330x420.jpg"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Metal roller",
+      "slug": "metal-roller",
+      "price": 45,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Gold"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-9.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-9-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-10-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-11-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-12-330x420.jpg"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Pot",
+      "slug": "pot",
+      "price": 60,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Black"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-4-500x403.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-13-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-14-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-15-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-16-330x420.jpg"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Wooden sound",
+      "slug": "wooden-sound",
+      "price": 150,
+      "category": ["Modern"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-product-img-2-500x403.png",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-5-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-6-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-7-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h5-gallery-img-8-330x420.jpg"
+      ]
+    },
+    
+    {
+      "id": 51,
+      "name": "Lights",
+      "slug": "lights",
+      "price": 75,
+      "category": ["Retro"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Grey"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-2-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-4-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Retro table",
+      "slug": "retro-table",
+      "price": 150,
+      "category": ["Retro"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-3-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-6-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-6-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-6-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-6-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "White chair",
+      "slug": "white-chair",
+      "price": 50,
+      "category": ["Retro"],
+      "tag": "Decorative",
+      "featured": false,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Beige","White"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-1-500x588.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-5-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-5-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-5-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-5-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Flash",
+      "slug": "flash",
+      "price": 245,
+      "category": ["Wood"],
+      "tag": "Decorative",
+      "featured": true,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Blue"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-5.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-2-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-2-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-2-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-2-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Wooden chair",
+      "slug": "wooden-chair",
+      "price": 297,
+      "category": ["Wood"],
+      "tag": "Decorative",
+      "featured": true,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Brown"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-6.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-3-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-3-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-3-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-3-img-gallery-4-330x420.jpg"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Wooden radio",
+      "slug": "wooden-radio",
+      "price": 93,
+      "category": ["Wood"],
+      "tag": "Decorative",
+      "featured": true,
+      "information": {
+        "dimensions": "20 x 40 x 30 cm",
+        "color": ["Brown"]
+      },
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco ommodo consequat. Duis aute irure dolor in reprehenderit dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "images": [
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-img-4.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-1-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-2-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-3-330x420.jpg",
+        "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/product-1-img-gallery-4-330x420.jpg"
+      ]
+    }
+  ]
+}
