@@ -1,14 +1,20 @@
-import React from 'react';
-import { Link } from 'libraries';
+import React, { useState } from 'react';
+import { Sidenav, Topnav } from 'components/molecules';
 
 export const Header = () => {
+  const [ isShow, setIsShow ] = useState(false);
+
+  const handleToggle = e => {
+    const target = e.target;
+    if(target.classList.contains('link') || target.classList.contains('nav-close')){
+      setIsShow(false)
+    }
+  } 
+
   return (
-    <div>
-      <Link to="/">Home</Link>
-      <Link to="/shop">Shop</Link>
-      <Link to="/product">Product</Link>
-      <Link to="/cart">Cart</Link>
-      <Link to="/checkout">Checkout</Link>
-    </div>
+    <>
+      <Topnav onClick={() => setIsShow(!isShow)}/>
+      <Sidenav isShow={isShow} onClick={e => handleToggle(e)}/>
+    </>
   );
 };
