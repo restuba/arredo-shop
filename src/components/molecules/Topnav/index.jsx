@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, styled } from 'libraries';
 import { logoBlack } from 'assets';
 import { breakpoints } from 'utils';
+import { RiMenu3Line as MenuIc } from 'react-icons/ri';
 
 export const Topnav = ({onClick}) => {
   return (
@@ -12,7 +13,7 @@ export const Topnav = ({onClick}) => {
         </Link>
       </div>
       <div className="nav-toggle" onClick={() => onClick()}>
-        <span></span><span></span><span></span>
+        <MenuIc/>
       </div>
     </TopnavWrap>
   );
@@ -49,12 +50,8 @@ const TopnavWrap = styled.header`
   }
   .nav-toggle{
     cursor: pointer;
-    span{
-      width: 28px;
-      height: 3px;
-      background: #636363;
-      display: block;
-      margin-bottom: 5px;
+    svg{
+      font-size: 20px;
     }
   }
 `;
