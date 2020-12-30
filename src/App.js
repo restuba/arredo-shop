@@ -1,4 +1,4 @@
-import { BaseTemplate, Header, MainTemplate } from "components";
+import { BaseTemplate, Header } from "components";
 import { React, BrowserRouter as Router, Switch, Route } from 'libraries';
 import { appRoutes } from "routes";
 
@@ -7,11 +7,9 @@ function App() {
    <BaseTemplate>
     <Router>
       <Header/>
-      <MainTemplate>
-        <Switch>
-          {appRoutes.map(route => <Route {...route} key={route}/>)}
-        </Switch>
-      </MainTemplate>
+      <Switch>
+        {appRoutes.map(route => <Route {...route} key={route}/>)}
+      </Switch>
     </Router>
    </BaseTemplate>
   );

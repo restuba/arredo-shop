@@ -20,7 +20,7 @@ const BaseTemplateWrap = styled.div`
     margin-top: 70px;
     z-index: 100;
   }
-  ${breakpoints.sm}{
+  /* ${breakpoints.sm}{
     background-color: blue;
   }
   ${breakpoints.md}{
@@ -31,5 +31,5 @@ const BaseTemplateWrap = styled.div`
   }
   ${breakpoints.xl}{
     background-color: red;
-  }
+  } */
 `;
