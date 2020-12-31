@@ -52,8 +52,9 @@ const SidenavWrap = styled.header`
   flex: 0 0 320px;
   width: 320px;
   max-width: 320px;
-  padding: 60px 75px;
+  padding: 2rem 4.75rem;
   background-color: #fff;
+  border-right: 1px solid #eee;
   ${breakpoints.md}{
     flex: 0 0 280px;
     width: 280px;
