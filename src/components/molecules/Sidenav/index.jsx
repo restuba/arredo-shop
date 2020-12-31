@@ -1,6 +1,5 @@
-import React from 'react';
 import { logoBlack } from 'assets';
-import { Link, styled } from 'libraries';
+import { React, Link, NavLink, styled } from 'libraries';
 import { breakpoints } from 'utils';
 import {RiAppsLine as HomeIc, RiShoppingCartLine as CartIc, RiStore2Line as ShopIc, RiHeartLine as FavIc, RiAccountCircleLine as ProfileIc, RiSearchLine as SearchIc, RiBuilding2Line as AboutIc} from 'react-icons/ri';
 
@@ -16,13 +15,13 @@ export const Sidenav = ({onClick, isShow}) => {
       <nav className="nav-links">
         <ul>
           <li>
-            <Link to="/" className="link"><HomeIc/>Home</Link>
+            <NavLink exact to="/" activeClassName="active" className="link"><HomeIc/>Home</NavLink>
           </li>
           <li>
-            <Link to="/shop" className="link"><ShopIc/>Shop</Link>
+            <NavLink exact to="/shop" activeClassName="active" className="link"><ShopIc/>Shop</NavLink>
           </li>
           <li>
-            <Link to="/about" className="link"><AboutIc/>About</Link>
+            <NavLink exact to="/about" activeClassName="active" className="link"><AboutIc/>About</NavLink>
           </li>
         </ul>
 
@@ -31,13 +30,13 @@ export const Sidenav = ({onClick, isShow}) => {
             <Link to="#" className="link"><SearchIc/>Search</Link>
           </li>
           <li>
-            <Link to="/cart" className="link"><CartIc/>Cart (0)</Link>
+            <NavLink exact to="/cart" activeClassName="active" className="link"><CartIc/>Cart (0)</NavLink>
           </li>
           <li>
-            <Link to="/favorite" className="link"><FavIc/>Favorite (0)</Link>
+            <NavLink exact to="/favorite" activeClassName="active" className="link"><FavIc/>Favorite (0)</NavLink>
           </li>
           <li>
-            <Link to="/profile" className="link"><ProfileIc/>Profile</Link>
+            <NavLink exact to="/profile" activeClassName="active" className="link"><ProfileIc/>Profile</NavLink>
           </li>
         </ul>
       </nav>
@@ -137,9 +136,7 @@ const SidenavWrap = styled.header`
             margin-right: 16px;
             font-size: 20px;
           }
-        }
-        &:hover, &:focus{
-          a{color: #000;  
+          &:hover, &.active{
             &::after{
               background: tomato;
               left: -95px;
