@@ -4,8 +4,9 @@ import axios from 'axios';
 import thunk from 'redux-thunk';
 import styled from 'styled-components';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+import InputRange from 'react-input-range';
 
-export { React, ReactDOM, axios, thunk, styled, Masonry, ResponsiveMasonry };
+export { React, ReactDOM, axios, thunk, styled, Masonry, ResponsiveMasonry, InputRange };
 
 export * from 'react';
 export * from 'react-router-dom';

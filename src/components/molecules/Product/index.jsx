@@ -59,6 +59,7 @@ const ProductWrap = styled.div`
       background-color: tomato;
       display: block;
       transition: 0.3s ease-out;
+      color: 
     }
     p{
       color: rgba(128, 129, 145, 1);
