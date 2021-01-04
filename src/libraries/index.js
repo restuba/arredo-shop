@@ -12,3 +12,4 @@ export * from 'react';
 export * from 'react-router-dom';
 export * from 'redux';
 export * from 'react-redux';
+export * from 'redux-devtools-extension';
