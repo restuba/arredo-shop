@@ -1,7 +1,6 @@
-import { connect, React, styled } from 'libraries';
-import { Product, Filter } from 'components';
+import { connect, React, useCallback, useEffect, useState, styled } from 'libraries';
+import { Product, Filter, Loading } from 'components';
 import { breakpoints } from 'utils';
-import { useCallback, useEffect, useState } from 'react';
 import { RiFilter2Line as FilterIc } from 'react-icons/ri';
 import { getProducts } from 'services';
 import { productsSelector } from 'modules';
@@ -28,10 +27,9 @@ const Shop = ({products}) => {
 
   const renderList = () => {
     if(loading){
-      return (
-        <div style={{fontSize: '42px'}}>Loading</div>
-      )
+      return <Loading color='#202020' type='spinningBubbles'/>
     }
+
     return(
       <ProductsWrap>
         {console.log(products)}

@@ -1,8 +1,9 @@
-import {  React, styled,ResponsiveMasonry, Masonry, connect, useSelector } from 'libraries';
+import { Loading } from 'components';
+import {  React, styled,ResponsiveMasonry, Masonry, useSelector } from 'libraries';
 import { useCallback, useEffect, useState } from 'react';
 import { getFeatured, getProducts } from 'services';
 
-const Home = () => {  
+export default function Home(){  
   const [ laoding, setLoading ] = useState(true);
   const { featuredProducts } = useSelector(state => state.product)
   console.log(featuredProducts)
@@ -24,16 +25,13 @@ const Home = () => {
 
   const renderList = () => {
     if(laoding){
-      return (
-        <div style={{fontSize: '42px'}}>Loading</div>
-      )
+      return  <Loading color='#202020' type='spinningBubbles'/>
     }
     
     return (
       <ResponsiveMasonry
         columnsCountBreakPoints={{320: 1, 576: 2, 768: 3, 992: 3}}
       >
-        {/* {console.log(featuredProducts)} */}
         <Masonry>
           {featuredProducts.map(product => (
             <div className="product" key={product.slug}>
@@ -44,71 +42,7 @@ const Home = () => {
               </div>
             </div>
           ))}
-          {/* <div className="product">
-              <img src={product1} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product2} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product3} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product4} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product5} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product6} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product7} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair s</h4>
-              </div>
-          </div>
-
-          <div className="product">
-              <img src={product8} alt="" />
-              <div className="product-content">
-                <p>From $180</p>
-                <h4>Modern Chair s</h4>
-              </div>
-          </div> */}
         </Masonry>
-
       </ResponsiveMasonry>
     )
   }
@@ -118,14 +52,6 @@ const Home = () => {
     </ProductsCategories>
   );
 };
-
-// const reduxState = state =>({
-//   featuredProducts: productsFeatured(state)
-// }) 
-
-
-
-export default connect(null)(Home);
 
 const ProductsCategories = styled.main`
   width: 100%;

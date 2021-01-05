@@ -4,5 +4,14 @@ import { Product } from './Product';
 import { Categories } from './Categories';
 import { Colors } from './Colors';
 import { Price } from './Price';
+import { Loading } from './Loading';
 
-export { Topnav, Sidenav, Product, Categories, Colors, Price };
+export {
+  Topnav,
+  Sidenav,
+  Product,
+  Categories,
+  Colors,
+  Price,
+  Loading
+};
