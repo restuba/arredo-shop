@@ -4,10 +4,10 @@ import { RiHeartFill as FavFillIc, RiHeartLine as FavIc } from 'react-icons/ri';
 export const Product = ({image, price, name, desc}) => {
   return (
     <ProductWrap>
-      <img src={image} alt="" />
+      <img src={`${image}`} alt="thumb" />
         <FavFillIc className="product-fav"/>
         <div className="product-content">
-          <p>{price}</p>
+          <p>${price}</p>
           <h4>{name}</h4>
         </div>
     </ProductWrap>

@@ -13,3 +13,6 @@ export const store = createStore(
 
 // dispatcher
 export * from './product/action';
+
+// selector
+export * from './product/selector';

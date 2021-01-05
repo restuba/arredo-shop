@@ -5,8 +5,9 @@ import thunk from 'redux-thunk';
 import styled from 'styled-components';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import InputRange from 'react-input-range';
+import PropTypes from 'prop-types';
 
-export { React, ReactDOM, axios, thunk, styled, Masonry, ResponsiveMasonry, InputRange };
+export { React, ReactDOM, axios, thunk, styled, Masonry, ResponsiveMasonry, InputRange, PropTypes };
 
 export * from 'react';
 export * from 'react-router-dom';

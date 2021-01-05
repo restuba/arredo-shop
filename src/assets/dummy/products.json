@@ -259,7 +259,7 @@
       "price": 4,
       "category": ["Furniture"],
       "tag": "Decorative",
-      "featured": false,
+      "featured": true,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -280,7 +280,7 @@
       "price": 12,
       "category": ["Furniture"],
       "tag": "Decorative",
-      "featured": false,
+      "featured": true,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -973,7 +973,7 @@
       "price": 120,
       "category": ["Modern"],
       "tag": "Decorative",
-      "featured": false,
+      "featured": true,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","Gold"]
@@ -1036,7 +1036,7 @@
       "price": 150,
       "category": ["Modern"],
       "tag": "Decorative",
-      "featured": false,
+      "featured": true,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige"]
@@ -1100,7 +1100,7 @@
       "price": 50,
       "category": ["Retro"],
       "tag": "Decorative",
-      "featured": false,
+      "featured": true,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","White"]

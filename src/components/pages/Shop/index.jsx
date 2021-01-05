@@ -1,12 +1,52 @@
-import { React, styled } from 'libraries';
+import { connect, React, styled } from 'libraries';
 import { Product, Filter } from 'components';
-import { product1, product2, product3, product4, product5, product6, product7, product8 } from 'assets';
 import { breakpoints } from 'utils';
-import { useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { RiFilter2Line as FilterIc } from 'react-icons/ri';
+import { getProducts } from 'services';
+import { productsSelector } from 'modules';
 
-export const Shop = () => {
+const Shop = ({products}) => {
   const [ filterActive, setFilterActive ] = useState(false);
+  const [ loading, setLoading ] = useState(true);
+
+  const initData = useCallback(async () => {
+    try{
+      setLoading(true);
+      await getProducts();
+      setLoading(false);
+    }catch(err){
+      setLoading(false);
+      alert('Terjadi kesalahan!');
+      throw err;
+    }
+  },[])
+
+  useEffect(() => {
+    initData();
+  }, [initData]);
+
+  const renderList = () => {
+    if(loading){
+      return (
+        <div style={{fontSize: '42px'}}>Loading</div>
+      )
+    }
+    return(
+      <ProductsWrap>
+        {console.log(products)}
+        {products.map(product => (
+          <Product 
+            key={product.slug}
+            image={product.images[0]}
+            price={product.price}
+            name={product.name}
+          />
+        ))}
+      </ProductsWrap>
+    )
+  }
+
 
   return (
     <ShopWrap>
@@ -17,51 +57,16 @@ export const Shop = () => {
       <FloatingBtn onClick={() => setFilterActive(!filterActive)}>
         <FilterIc/>
       </FloatingBtn>
-      <ProductsWrap>
-        <Product 
-          image={product1}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product2}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product3}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product4}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product5}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product6}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product7}
-          price="$180"
-          name="Modern Chair"
-        />
-        <Product 
-          image={product8}
-          price="$180"
-          name="Modern Chair"
-        />
-      </ProductsWrap>
+      {renderList()}
     </ShopWrap>
   );
 };
+
+const reduxState = state => ({
+  products: productsSelector(state)
+})
+
+export default connect(reduxState)(Shop);
 
 const ShopWrap = styled.main`
   width: 100%;
