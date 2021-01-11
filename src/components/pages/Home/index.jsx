@@ -1,12 +1,11 @@
-import { Loading } from 'components';
-import {  React, styled,ResponsiveMasonry, Masonry, useSelector } from 'libraries';
-import { useCallback, useEffect, useState } from 'react';
+import { Loading, AuthContainer } from 'components';
+import {  React, styled,ResponsiveMasonry, Masonry, useSelector, useHistory, useCallback, useEffect, useState  } from 'libraries';
 import { getFeatured, getProducts } from 'services';
 
-export default function Home(){  
+const Home = () => {  
   const [ laoding, setLoading ] = useState(true);
   const { featuredProducts } = useSelector(state => state.product)
-  console.log(featuredProducts)
+  const history = useHistory();
   const initData = useCallback(async () => {
     try{
       setLoading(true);
@@ -29,29 +28,35 @@ export default function Home(){
     }
     
     return (
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{320: 1, 576: 2, 768: 3, 992: 3}}
-      >
-        <Masonry>
-          {featuredProducts.map(product => (
-            <div className="product" key={product.slug}>
-              <img src={product.images[0]} alt="" />
-              <div className="product-content">
-                <p>${product.price}</p>
-                <h4>{product.name}</h4>
+   
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{320: 1, 576: 2, 768: 3, 992: 3}}
+        >
+          <Masonry>
+            {featuredProducts.map(product => (
+              <div className="product" key={product.slug} onClick={() => history.push(`product/${product.slug}`)} data={product}>
+                <img src={product.images[0]} alt="" />
+                <div className="product-content">
+                  <p>${product.price}</p>
+                  <h4>{product.name}</h4>
+                </div>
               </div>
-            </div>
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
+            ))}
+          </Masonry>
+        </ResponsiveMasonry>
+      
     )
   }
   return (
-    <ProductsCategories>
-      {renderList()}
-    </ProductsCategories>
+    <AuthContainer>
+      <ProductsCategories>
+        {renderList()}
+      </ProductsCategories>
+    </AuthContainer>
   );
 };
+
+export default Home;
 
 const ProductsCategories = styled.main`
   width: 100%;

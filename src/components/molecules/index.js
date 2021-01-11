@@ -5,6 +5,7 @@ import { Categories } from './Categories';
 import { Colors } from './Colors';
 import { Price } from './Price';
 import { Loading } from './Loading';
+import Gallery from './Gallery';
 
 export {
   Topnav,
@@ -13,5 +14,6 @@ export {
   Categories,
   Colors,
   Price,
-  Loading
+  Loading,
+  Gallery
 };

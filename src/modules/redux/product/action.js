@@ -8,13 +8,14 @@ export const setProduct = () => ({
   type: actionType.SET_PRODUCT
 });
 
+
 /**
  * an Action for clear products data
  */
-
 export const clearProduct = () => ({
   type: actionType.CLEAR_PRODUCT
 })
+
 
 /**
  * an Action for set products data
@@ -25,19 +26,27 @@ export const setProducts = value => ({
   value
 })
 
+
 /**
  * an Action for clear products data
  */
-
  export const clearProducts = () => ({
    type: actionType.CLEAR_PRODUCTS
  })
 
- /**
-  * ac Action for set featured data
-  */
 
-  export const setFeatured = value => ({
-    type: actionType.SET_FEATURED,
-    value
-  })
+ /**
+  * an Action for set featured data
+  */
+export const setFeatured = value => ({
+  type: actionType.SET_FEATURED,
+  value
+})
+
+/**
+ * an Action for set detail product
+ */
+export const setDetail = value => ({
+  type: actionType.SET_DETAIL_PRODUCT,
+  value
+})

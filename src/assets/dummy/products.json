@@ -8,6 +8,7 @@
       "category": ["Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black","Gold"]
@@ -29,6 +30,7 @@
       "category": ["Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -50,6 +52,7 @@
       "category": ["Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","Blue"]
@@ -71,6 +74,7 @@
       "category": ["Ceiling","Decoration","LED"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey","White"]
@@ -92,6 +96,7 @@
       "category": ["Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -113,6 +118,7 @@
       "category": ["Ceiling","Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -134,6 +140,7 @@
       "category": ["Ceiling","Decoration","LED"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -155,6 +162,7 @@
       "category": ["Decoration","Floor"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","White"]
@@ -176,6 +184,7 @@
       "category": ["Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","White"]
@@ -197,6 +206,7 @@
       "category": ["Decoration","LED"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","Blue"]
@@ -218,6 +228,7 @@
       "category": ["Ceiling","Decoration"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -239,6 +250,7 @@
       "category": ["Decoration","Floor"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -260,6 +272,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": true,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -281,6 +294,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": true,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -302,6 +316,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Blue"]
@@ -323,6 +338,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black","Gold"]
@@ -344,6 +360,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold"]
@@ -365,6 +382,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -386,6 +404,7 @@
       "category": ["Furniture"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige"]
@@ -407,6 +426,7 @@
       "category": ["Grouped"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Brown"]
@@ -428,6 +448,7 @@
       "category": ["Grouped"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -449,6 +470,7 @@
       "category": ["Grouped"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey","White"]
@@ -470,6 +492,7 @@
       "category": ["Grouped"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey","White"]
@@ -491,6 +514,7 @@
       "category": ["Lamps"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -512,6 +536,7 @@
       "category": ["Lamps","Wooden"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -533,6 +558,7 @@
       "category": ["Lamps","Wooden"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","Blue"]
@@ -554,6 +580,7 @@
       "category": ["Lamps","Wooden"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Blue"]
@@ -575,6 +602,7 @@
       "category": ["Decorative","Lamps"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -596,6 +624,7 @@
       "category": ["Lamps","Wooden"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige"]
@@ -617,6 +646,7 @@
       "category": ["Decorative","Lamps"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -638,6 +668,7 @@
       "category": ["Decorative","Lamps"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -659,6 +690,7 @@
       "category": ["Lamps"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["White"]
@@ -680,6 +712,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","Grey"]
@@ -701,6 +734,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","Grey"]
@@ -722,6 +756,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black","Gold"]
@@ -743,6 +778,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","White"]
@@ -764,6 +800,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","White"]
@@ -785,6 +822,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black","Gold"]
@@ -806,6 +844,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","White"]
@@ -827,6 +866,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold"]
@@ -848,6 +888,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -869,6 +910,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black","Gold"]
@@ -890,6 +932,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","Grey"]
@@ -911,6 +954,7 @@
       "category": ["Lights"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold","White"]
@@ -932,6 +976,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -953,6 +998,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": false,
+       "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","White"]
@@ -974,6 +1020,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","Gold"]
@@ -995,6 +1042,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": false,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Gold"]
@@ -1016,6 +1064,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": false,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Black"]
@@ -1037,6 +1086,7 @@
       "category": ["Modern"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige"]
@@ -1059,6 +1109,7 @@
       "category": ["Retro"],
       "tag": "Decorative",
       "featured": false,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Grey"]
@@ -1080,6 +1131,7 @@
       "category": ["Retro"],
       "tag": "Decorative",
       "featured": false,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige"]
@@ -1101,6 +1153,7 @@
       "category": ["Retro"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Beige","White"]
@@ -1122,6 +1175,7 @@
       "category": ["Wood"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Blue"]
@@ -1143,6 +1197,7 @@
       "category": ["Wood"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Brown"]
@@ -1164,6 +1219,7 @@
       "category": ["Wood"],
       "tag": "Decorative",
       "featured": true,
+      "quantity": 50,
       "information": {
         "dimensions": "20 x 40 x 30 cm",
         "color": ["Brown"]

@@ -5,7 +5,6 @@ export const Filter = ({isActive, onClick}) => {
   const [ selectedCategory, setSelectCategory ] = useState(false);
   const [ selectedColor, setSelectedColor ] = useState(false);
   const [ selectedPrice, setSelectedPrice ] = useState(false);
-  console.log({selectedCategory, selectedColor, selectedPrice})
   return (
     <FilterWrap isActive={isActive}>
       <button className="nav-close" onClick={() => onClick()}>&#x2715;</button>

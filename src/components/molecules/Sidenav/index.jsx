@@ -1,5 +1,5 @@
-import { logoBlack } from 'assets';
 import { React, Link, NavLink, styled } from 'libraries';
+import { logoBlack } from 'assets';
 import { breakpoints } from 'utils';
 import {RiAppsLine as HomeIc, RiShoppingCartLine as CartIc, RiStore2Line as ShopIc, RiHeartLine as FavIc, RiAccountCircleLine as ProfileIc, RiSearchLine as SearchIc, RiBuilding2Line as AboutIc} from 'react-icons/ri';
 
@@ -36,7 +36,7 @@ export const Sidenav = ({onClick, isShow}) => {
             <NavLink exact to="/favorite" activeClassName="active" className="link"><FavIc/>Favorite (0)</NavLink>
           </li>
           <li>
-            <NavLink exact to="/profile" activeClassName="active" className="link"><ProfileIc/>Profile</NavLink>
+            <NavLink exact to="/login" activeClassName="active" className="link"><ProfileIc/>Sign In</NavLink>
           </li>
         </ul>
       </nav>

@@ -1,6 +1,6 @@
 import { handleAsync } from "utils"
 import { API } from 'configs';  
-import { store, setProducts, setFeatured } from 'modules';
+import { store, setProducts, setFeatured, setDetail } from 'modules';
 
 const { dispatch } = store;
 
@@ -19,9 +19,17 @@ export const getProducts = async () => {
  * a Service for get featured products
  */
 
- export const getFeatured = (data) => {
-   const filter = data.filter(item => item.featured === true);
-   console.log(filter)
-   dispatch(setFeatured(filter))
-   return filter;
- }
+export const getFeatured = (data) => {
+  const filter = data.filter(item => item.featured === true);
+  dispatch(setFeatured(filter))
+  return filter;
+}
+
+ /**
+  * a Service for get detail product
+  */
+export const getDetailProduct = (data, slug) => {
+  const detail = data.find(item => item.slug === slug)
+  dispatch(setDetail(detail));
+  return detail;
+}

@@ -1,16 +1,4 @@
-# Atomic Design Environtmen
-- assets (static file)
-
-- components (there are five distinct levels in atomic design)
-
-- configs (calling api configuration)
-
-- modules (third party configuration)
-
-- routes (routing navigation)
-
-- services (save all )
-- utils
+json-server --watch src/assets/dummy/products.json
 
 ## Available Scripts
 

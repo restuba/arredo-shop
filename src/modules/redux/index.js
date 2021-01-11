@@ -1,9 +1,11 @@
 import { thunk, createStore, combineReducers, applyMiddleware, composeWithDevTools } from 'libraries';
 import { product } from './product/reducer';
+import { profile } from './profile/reducer';
 
 // reducer
 export const reducer = combineReducers({
-  product
+  product,
+  profile
 });
 
 // store
@@ -13,6 +15,8 @@ export const store = createStore(
 
 // dispatcher
 export * from './product/action';
+export * from './profile/action';
 
 // selector
 export * from './product/selector';
+export * from './profile/selector';

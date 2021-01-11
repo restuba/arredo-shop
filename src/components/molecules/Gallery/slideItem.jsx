@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const Product = () => {
+const slideItem = () => {
   return (
     <div>
-      Hello from Product
+      
     </div>
   );
 };
+
+export default slideItem;

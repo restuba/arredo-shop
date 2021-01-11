@@ -1,4 +1,4 @@
-import { connect, React, useCallback, useEffect, useState, styled } from 'libraries';
+import { connect, React, useCallback, useEffect, useState, styled, useHistory } from 'libraries';
 import { Product, Filter, Loading } from 'components';
 import { breakpoints } from 'utils';
 import { RiFilter2Line as FilterIc } from 'react-icons/ri';
@@ -8,7 +8,8 @@ import { productsSelector } from 'modules';
 const Shop = ({products}) => {
   const [ filterActive, setFilterActive ] = useState(false);
   const [ loading, setLoading ] = useState(true);
-
+  const history = useHistory();
+  
   const initData = useCallback(async () => {
     try{
       setLoading(true);
@@ -32,13 +33,13 @@ const Shop = ({products}) => {
 
     return(
       <ProductsWrap>
-        {console.log(products)}
         {products.map(product => (
           <Product 
             key={product.slug}
             image={product.images[0]}
             price={product.price}
             name={product.name}
+            onClick={() => history.push(`product/${product.slug}`)}
           />
         ))}
       </ProductsWrap>
@@ -47,16 +48,18 @@ const Shop = ({products}) => {
 
 
   return (
-    <ShopWrap>
-      <Filter
-        isActive={filterActive}
-        onClick={() => setFilterActive(false)}
-      />
-      <FloatingBtn onClick={() => setFilterActive(!filterActive)}>
-        <FilterIc/>
-      </FloatingBtn>
-      {renderList()}
-    </ShopWrap>
+    <>
+      <ShopWrap>
+        <Filter
+          isActive={filterActive}
+          onClick={() => setFilterActive(false)}
+        />
+        <FloatingBtn onClick={() => setFilterActive(!filterActive)}>
+          <FilterIc/>
+        </FloatingBtn>
+        {renderList()}
+      </ShopWrap>
+    </>
   );
 };
 

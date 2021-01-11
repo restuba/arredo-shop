@@ -1,9 +1,9 @@
 import { React, styled } from 'libraries';
 import { RiHeartFill as FavFillIc, RiHeartLine as FavIc } from 'react-icons/ri';
 
-export const Product = ({image, price, name, desc}) => {
+export const Product = ({image, price, name, onClick}) => {
   return (
-    <ProductWrap>
+    <ProductWrap onClick={onClick}>
       <img src={`${image}`} alt="thumb" />
         <FavFillIc className="product-fav"/>
         <div className="product-content">
@@ -59,7 +59,6 @@ const ProductWrap = styled.div`
       background-color: tomato;
       display: block;
       transition: 0.3s ease-out;
-      color: 
     }
     p{
       color: rgba(128, 129, 145, 1);

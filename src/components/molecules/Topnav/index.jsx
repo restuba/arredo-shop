@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link, styled } from 'libraries';
+import { React, Link, styled } from 'libraries';
 import { logoBlack } from 'assets';
 import { breakpoints } from 'utils';
 import { RiMenu3Line as MenuIc } from 'react-icons/ri';

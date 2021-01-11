@@ -32,3 +32,16 @@ export const handleAsync = async promise => {
   }
 };
 
+
+/**
+ * a helper for create profile state to save state profile reducer
+ * @param {*} data
+ */
+export const createProfileObj = data => ({
+  name: data.name,
+  email: data.email,
+  userId: data.userId,
+  photo: data.photo,
+  bio: data.bio
+})
+

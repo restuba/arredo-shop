@@ -7,6 +7,9 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import InputRange from 'react-input-range';
 import PropTypes from 'prop-types';
 import ReactLoading from 'react-loading';
+import SwiperCore, { Thumbs } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import firebase from 'firebase';
 
 export { 
   React,
@@ -18,7 +21,11 @@ export {
   ResponsiveMasonry,
   InputRange,
   PropTypes,
-  ReactLoading
+  ReactLoading,
+  SwiperCore,
+  Thumbs,
+  Swiper, SwiperSlide,
+  firebase
 };
 
 export * from 'react';

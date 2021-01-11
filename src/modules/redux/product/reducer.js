@@ -3,7 +3,8 @@ import { actionType } from './actionType';
 const initialState = {
   product: [],
   products: [],
-  featuredProducts: []
+  featuredProducts: [],
+  detailProduct: []
 }
 
 export const product = (state = initialState, action) => {
@@ -32,6 +33,11 @@ export const product = (state = initialState, action) => {
       return {
         ...state,
         featuredProducts: action.value
+      }
+    case actionType.SET_DETAIL_PRODUCT:
+      return {
+        ...state,
+        detailProduct: action.value
       }
     default:
       return state
