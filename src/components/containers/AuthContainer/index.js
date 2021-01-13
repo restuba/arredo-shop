@@ -7,7 +7,6 @@ const AuthContainer = ({ profile, children }) => {
 
   useEffect(() => {
     if(profile){
-      console.log('detected profile', profile)
       history.replace('/');
     }
   },[history, profile]);

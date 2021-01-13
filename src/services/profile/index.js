@@ -17,7 +17,6 @@ export const getProfile = () => {
       async user => {
         if(user){
           let userData = await firebaseService.getUserData(user.uid);
-  
           if(!userData){
             userData = await firebaseService.createUserData({
               name: user.displayName,

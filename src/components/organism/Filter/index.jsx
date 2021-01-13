@@ -14,7 +14,7 @@ export const Filter = ({isActive, onClick}) => {
       <Categories parentCallback={setSelectCategory}/>
       <Colors parentCallback={setSelectedColor}/>
       <Price parentCallback={setSelectedPrice}/>
-      <Button title="Filter"/>
+      <Button variant="primary" title="Filter"/>
     </FilterWrap>
   );
 };

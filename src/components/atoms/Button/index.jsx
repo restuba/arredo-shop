@@ -1,18 +1,24 @@
 import { styled } from 'libraries';
+import { variantButton } from 'utils';
 
-export const Button = ({ title, onClick }) => (
-  <ButtonWrap onClick={onClick}>{title}</ButtonWrap>
-);
+export const Button = ({ title, onClick, variant }) => {
+  return(
+    <ButtonWrap className={variant} onClick={onClick}>{title}</ButtonWrap>
+  );
+}
+
 
 const ButtonWrap = styled.button`
+  &.primary{
+    ${variantButton('tomato', '#fff')}
+  };
+  &.secondary{
+    ${variantButton('#f8f9fa', '#212529')}
+  };
   display: block;
-  background: tomato;
   transition: 0.3s ease-out;
   border: none;
-  color: #fff;
-  padding: 12px 20px;
+  padding: 16px 20px;
   cursor: pointer;
-  &:hover{
-    background: #d62e2e;
-  }
+  font-weight: 800;
 `;

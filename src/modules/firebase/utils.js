@@ -1,5 +1,6 @@
 import { firebase } from 'libraries';
 import { appConfig } from 'configs';
+import { handleAsync } from 'utils';
 
 // initalizeApp
 firebase.initializeApp(appConfig.firebase);
@@ -46,11 +47,11 @@ const createUserData = async (payload = {}) => {
  */
 const getUserData = () => {
   const userId = firebase.auth().currentUser.uid;
-  const promise = new Promise(resolve => {
+  const promise = new Promise((resolve, rejected) => {
     firebase
       .database()
       .ref(`users/${userId}`)
-      .on('value', snapshot => {
+      .once('value', snapshot => {
         resolve(snapshot.val());
       });
   });
@@ -59,11 +60,18 @@ const getUserData = () => {
 
 
 
+const logout = async () => {
+  const [res, err] = await handleAsync(firebase.auth().signOut());
+  if(err) throw err;
+  return res;
+}
+
 export const firebaseService = {
   getAuthUser,
   signInWithGoogle,
   createUserData,
-  getUserData
+  getUserData,
+  logout
 }
 
 

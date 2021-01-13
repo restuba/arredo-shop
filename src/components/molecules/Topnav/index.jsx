@@ -24,7 +24,7 @@ const TopnavWrap = styled.header`
   width: 100%;
   height: 70px;
   background: #fff;
-  z-index: 900;
+  z-index: 99;
   top: 0;
   left: 0;
   right: 0;

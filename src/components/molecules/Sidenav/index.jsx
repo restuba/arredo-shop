@@ -1,9 +1,23 @@
-import { React, Link, NavLink, styled } from 'libraries';
+import { React, Link, NavLink, styled, connect } from 'libraries';
 import { logoBlack } from 'assets';
 import { breakpoints } from 'utils';
-import {RiAppsLine as HomeIc, RiShoppingCartLine as CartIc, RiStore2Line as ShopIc, RiHeartLine as FavIc, RiAccountCircleLine as ProfileIc, RiSearchLine as SearchIc, RiBuilding2Line as AboutIc} from 'react-icons/ri';
+import {RiAppsLine as HomeIc, RiShoppingCartLine as CartIc, RiStore2Line as ShopIc, RiHeartLine as FavIc, RiSearchLine as SearchIc, RiBuilding2Line as AboutIc, RiLoginBoxLine as LoginIc, RiLogoutBoxLine as LogoutIc} from 'react-icons/ri';
+import { profileSelector } from 'modules';
+import { showPopup } from 'services/popup';
+import { logout } from 'services';
 
-export const Sidenav = ({onClick, isShow}) => {
+const Sidenav = ({onClick, isShow, profile}) => {
+  const handleLogout = () => {
+    showPopup({
+      title: 'Logout',
+      description: 'Are you sure you want to logout now?',
+      showSecondButton: true,
+      buttonTitle: 'Logout',
+      onClickButton: logout,
+      type: 'logout'
+    })
+  }
+
   return (
     <SidenavWrap isShow={isShow} onClick={onClick}>
       <div className="nav-close">&#x2715;</div>
@@ -35,14 +49,39 @@ export const Sidenav = ({onClick, isShow}) => {
           <li>
             <NavLink exact to="/favorite" activeClassName="active" className="link"><FavIc/>Favorite (0)</NavLink>
           </li>
-          <li>
-            <NavLink exact to="/login" activeClassName="active" className="link"><ProfileIc/>Sign In</NavLink>
-          </li>
+        </ul>
+
+        <ul>
+          {profile && (
+            <>
+            <li>
+              <NavLink to="/profile" activeClassName="active" className="link">
+                <img src={profile.photo} alt="profile" />
+                <span>{(profile.email).split("@")[0]}</span>               
+              </NavLink>
+            </li>
+            <li onClick={handleLogout}>
+              <Link to="#" className="link"><LogoutIc/>Logout</Link>
+            </li>
+            </>
+          )}
+
+          {!profile && (
+            <li>
+              <NavLink exact to="/login" activeClassName="active" className="link"><LoginIc/>Login</NavLink>
+            </li>
+          )}
         </ul>
       </nav>
     </SidenavWrap>
   );
 };
+
+const reduxState = state => ({
+  profile: profileSelector(state)
+})
+
+export default connect(reduxState)(Sidenav);
 
 const SidenavWrap = styled.header`
   transition: 0.3s ease-out;
@@ -66,7 +105,7 @@ const SidenavWrap = styled.header`
     width: 320px;
     max-width: 320px;
     position: fixed;
-    z-index: 1000;
+    z-index: 100;
     top: 0;
     left: ${({isShow}) => isShow ? `0` : `-350px`};
     height: 100%;
@@ -109,7 +148,7 @@ const SidenavWrap = styled.header`
 
   .nav-links {
     ul{
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       li{
         list-style: none;
         a{
@@ -124,6 +163,12 @@ const SidenavWrap = styled.header`
           z-index: 1;
           padding: 20px 0;
           transition: 0.3s ease-out;
+          span{
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
           &::after{
             content: '';
             transition: 0.3s ease-out;
@@ -136,6 +181,14 @@ const SidenavWrap = styled.header`
           svg{
             margin-right: 16px;
             font-size: 20px;
+          }
+          img{
+            box-sizing: border-box;
+            width: 20px;
+            height: 20px;
+            margin-right: 16px;
+            border-radius: 50%;
+            border: 1px solid tomato;
           }
           &:hover, &.active{
             &::after{

@@ -1,18 +1,26 @@
 import { React, styled } from 'libraries';
 import { AuthContainer, Button } from 'components';
 import { handleAsync } from 'utils';
-import { signInWithGoogle } from 'services';
+import { addNotifications, signInWithGoogle } from 'services';
 
 const Login = () => {
   const submitGoogle = async () => {
     const [res, err] = await handleAsync(signInWithGoogle());
     if(err){
-      alert('Terjadi kesalahan!', err);
+      addNotifications({
+        type: "DANGER",
+        title: "Login",
+        message: `Oops! ${err}`,
+        id: Math.random()
+      })
       throw err;
     }
-
-    alert('Berhasil Login')
-    console.log(res)
+    addNotifications({
+      type: "SUCCESS",
+      title: `Hello, ${res.user.displayName}`,
+      message: "Well done! Login Successful",
+      id: Math.random()
+    })
     return res;
   }
   return (

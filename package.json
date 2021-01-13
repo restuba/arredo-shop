@@ -20,10 +20,12 @@
     "react-responsive-masonry": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-toast-notifications": "^2.4.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.1",
+    "sweetalert2-react": "^0.8.3",
     "swiper": "^6.4.5",
     "web-vitals": "^0.2.4"
   },
