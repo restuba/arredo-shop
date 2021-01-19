@@ -16,17 +16,22 @@ export const getProfile = () => {
     firebase.auth().onAuthStateChanged(
       async user => {
         if(user){
-          let userData = await firebaseService.getUserData(user.uid);
-          if(!userData){
+          let userData = await firebaseService.handleUserProfile(user);
+          console.log('userData', userData)
+          if(!userData.exists){
+            const timestamp = new Date();
             userData = await firebaseService.createUserData({
               name: user.displayName,
               email: user.email,
               userId: user.uid,
-              photo: user.photoURL
+              photo: user.photoURL,
+              createData: timestamp
             });
+            console.log('createUserData', userData)
           }
-  
+          
           const userObj = createProfileObj({ ...user, ...userData });
+  
           dispatch(setProfile(userObj));
           resolve(user);
         }else{

@@ -4,6 +4,44 @@ import { handleAsync } from "utils"
 
 const { dispatch } = store;
 
+
+export const register = async (payload = {}) => {
+  try{
+    const res = await firebaseService.register(payload);
+    const { user } = res;
+    console.log('from register auth',user)
+    const timestamp = new Date();
+    const userForm = {
+      userId: user.uid,
+      name: payload.name,
+      email: payload.email,
+      photo: user.photoURL || null,
+      createData: timestamp
+    }
+    console.log('userForm', userForm)
+    // profile creation in database
+    await firebaseService.createUserData(userForm);
+
+    return res;
+  }catch(err){
+    throw err;
+  }
+}
+
+
+
+export const login = async (payload = {}) => {
+  const [ res, err ] = await handleAsync(firebaseService.login(payload));
+
+  if(err){
+    throw err;
+  }
+
+  // const { res } = res;
+  // const userData = await firebaseService.handleUserProfile()
+}
+
+
 /**
  * a Service for login / register with google
  */

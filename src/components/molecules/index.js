@@ -7,6 +7,8 @@ import { Price } from './Price';
 import { Loading } from './Loading';
 import Gallery from './Gallery';
 import LoadingScreen from './LoadingScreen';
+import SignIn from './SignIn';
+import SignUp from './SignUp';
 
 export {
   Topnav,
@@ -17,5 +19,7 @@ export {
   Price,
   Loading,
   Gallery,
-  LoadingScreen
+  LoadingScreen,
+  SignIn,
+  SignUp
 };

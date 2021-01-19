@@ -5,6 +5,7 @@ import {RiAppsLine as HomeIc, RiShoppingCartLine as CartIc, RiStore2Line as Shop
 import { profileSelector } from 'modules';
 import { showPopup } from 'services/popup';
 import { logout } from 'services';
+import { noProfile } from 'assets';
 
 const Sidenav = ({onClick, isShow, profile}) => {
   const handleLogout = () => {
@@ -56,8 +57,8 @@ const Sidenav = ({onClick, isShow, profile}) => {
             <>
             <li>
               <NavLink to="/profile" activeClassName="active" className="link">
-                <img src={profile.photo} alt="profile" />
-                <span>{(profile.email).split("@")[0]}</span>               
+                <img src={profile.photo ? profile.photo : noProfile} alt="profile" />
+                <span>{profile.name ? profile.name : (profile.email).split("@")[0]}</span>               
               </NavLink>
             </li>
             <li onClick={handleLogout}>
