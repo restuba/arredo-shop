@@ -1,7 +1,5 @@
-import { Button } from './Button';
-import { Slider } from './Slider';
-import { Dropdown } from './Dropdown';
-import { Label } from './Label';
-import Toast from './Toast';
-
-export { Button, Slider, Dropdown, Label, Toast };
+export { default as Button } from './button';
+export { default as Slider } from './slider';
+export { default as Dropdown } from './dropdown';
+export { default as Label } from './label';
+export { default as Toast } from './toast'; 

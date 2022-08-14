@@ -1,6 +1,4 @@
-import { Header } from './Header';
-import { ProductsCategories } from './ProductsCategories';
-import { Filter } from './Filter';
-import Sign from './Sign';
-
-export { Header, ProductsCategories, Filter, Sign };
+export { default as Filter } from "./filter";
+export { default as Header } from "./header";
+export { default as ProductsCategories } from "./productsCategories";
+export { default as Sign } from "./sign";

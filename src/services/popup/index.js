@@ -1,7 +1,7 @@
 import { clearPopup, setPopup } from "modules/redux/popup/action";
-import { store } from 'modules';
+import { store } from "modules";
 
-const { dispatch }  = store;
+const { dispatch } = store;
 const state = store.getState();
 
 /**
@@ -10,16 +10,15 @@ const state = store.getState();
  */
 export const showPopup = (payload = {}) => {
   const { popup } = state;
-  console.log('from service',payload)
+  console.log("from service", payload);
 
   // clearing popup state in reducer
-  if(popup.show){
+  if (popup.show) {
     dispatch(clearPopup());
   }
-  dispatch(setPopup({...payload, show: true}));
+  dispatch(setPopup({ ...payload, show: true }));
   return payload;
-}
-
+};
 
 /**
  * a Service for hiding popup
@@ -27,4 +26,4 @@ export const showPopup = (payload = {}) => {
 export const hidePopup = () => {
   dispatch(clearPopup());
   return true;
-}
+};

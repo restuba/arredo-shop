@@ -1,13 +1,6 @@
-import { BaseTemplate } from './BaseTemplate';
-import { ProfileTemplate } from './ProfileTemplate';
-import { MainTemplate } from './MainTemplate';
-import AuthContainer from './AuthContainer';
-import PrivateContainer from './PrivateContainer';
-
-export {
-  BaseTemplate,
-  ProfileTemplate,
-  MainTemplate,
-  AuthContainer,
-  PrivateContainer
-};
+export { default as ProductsContainer } from "./products";
+export { default as ProductDetailContainer } from "./productDetail";
+export { default as LoginContainer } from "./login";
+export { default as HomeContainer } from "./home";
+export { default as CheckoutContainer } from "./checkout";
+export { default as CartContainer } from "./cart";

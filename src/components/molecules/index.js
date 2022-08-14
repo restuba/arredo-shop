@@ -1,25 +1,12 @@
-import { Topnav } from './Topnav';
-import Sidenav from './Sidenav';
-import { Product } from './Product';
-import { Categories } from './Categories';
-import { Colors } from './Colors';
-import { Price } from './Price';
-import { Loading } from './Loading';
-import Gallery from './Gallery';
-import LoadingScreen from './LoadingScreen';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
-
-export {
-  Topnav,
-  Sidenav,
-  Product,
-  Categories,
-  Colors,
-  Price,
-  Loading,
-  Gallery,
-  LoadingScreen,
-  SignIn,
-  SignUp
-};
+export { default as TopNav } from "./topNav";
+export { default as SignUp } from "./signUp";
+export { default as SignIn } from "./signIn";
+export { default as SideNav } from "./sideNav";
+export { default as Product } from "./product";
+export { default as Price } from "./price";
+export { default as Popup } from "./popup";
+export { default as LoadingScreen } from "./loadingScreen";
+export { default as Loading } from "./loading";
+export { default as Gallery } from "./gallery";
+export { default as Colors } from "./colors";
+export { default as Categories } from "./categories";
